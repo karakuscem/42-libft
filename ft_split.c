@@ -6,13 +6,13 @@
 /*   By: ckarakus <ckarakus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 16:38:20 by ckarakus          #+#    #+#             */
-/*   Updated: 2022/12/17 16:56:09 by ckarakus         ###   ########.fr       */
+/*   Updated: 2022/12/18 13:08:41 by ckarakus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	size_t	ft_counter(const char *s, char c)
+static	size_t	ft_counter(char const *s, char c)
 {
 	size_t	counter;
 
@@ -31,7 +31,7 @@ static	size_t	ft_counter(const char *s, char c)
 	return (counter);
 }
 
-char	**ft_split(const char *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	int		len;
 	int		i;
