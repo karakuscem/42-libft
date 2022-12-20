@@ -7,7 +7,6 @@ SRCS	=	ft_isalpha.c \
 			ft_bzero.c  \
 			ft_memset.c	\
 			ft_memcpy.c	\
-			ft_memccpy.c \
 			ft_toupper.c \
 			ft_tolower.c \
 			ft_strlcpy.c \
