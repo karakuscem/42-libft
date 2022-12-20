@@ -36,7 +36,8 @@ SRCS	=	ft_isalpha.c \
 			ft_itoa.c \
 			ft_strmapi.c \
 			ft_striteri.c \
-			ft_lstnew.c \
+
+BSRCS	=	ft_lstnew.c \
 			ft_lstadd_front.c \
 			ft_lstsize.c \
 			ft_lstlast.c \
@@ -45,10 +46,9 @@ SRCS	=	ft_isalpha.c \
 			ft_lstclear.c \
 			ft_lstiter.c \
 			ft_lstmap.c
-BSRJS	=
 
-BOBJS = $(BSRCS:.c=.o)
 OBJS = ${SRCS:.c=.o}
+BOBJS = $(BSRCS:.c=.o)
 NAME = libft.a
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
