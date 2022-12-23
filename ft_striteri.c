@@ -6,7 +6,7 @@
 /*   By: ckarakus <ckarakus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/18 03:42:22 by ckarakus          #+#    #+#             */
-/*   Updated: 2022/12/20 20:59:03 by ckarakus         ###   ########.fr       */
+/*   Updated: 2022/12/23 15:10:11 by ckarakus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-

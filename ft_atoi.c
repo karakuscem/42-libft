@@ -6,7 +6,7 @@
 /*   By: ckarakus <ckarakus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 15:11:50 by ckarakus          #+#    #+#             */
-/*   Updated: 2022/12/18 04:14:03 by ckarakus         ###   ########.fr       */
+/*   Updated: 2022/12/23 21:15:59 by ckarakus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,9 @@ int	ft_atoi(const char *str)
 	}
 	while (str[i] >= 48 && str[i] <= 57)
 	{
-		to_return = to_return * 10 + (str[i] - 48) * sign;
+		to_return = to_return * 10 + (str[i] - 48);
 		i++;
 	}
+	to_return *= sign;
 	return ((int)to_return);
 }

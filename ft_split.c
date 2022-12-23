@@ -6,7 +6,7 @@
 /*   By: ckarakus <ckarakus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 16:38:20 by ckarakus          #+#    #+#             */
-/*   Updated: 2022/12/21 01:02:14 by ckarakus         ###   ########.fr       */
+/*   Updated: 2022/12/23 20:39:17 by ckarakus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char	**ft_split(char const *s, char c)
 	if (!s)
 		return (NULL);
 	i = 0;
-	to_return = malloc(sizeof(char *) * ft_counter(s, c) + 1);
+	to_return = malloc(sizeof(char *) * (ft_counter(s, c) + 1));
 	if (!to_return)
 		return (NULL);
 	while (*s)
