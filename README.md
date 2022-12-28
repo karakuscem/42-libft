@@ -16,6 +16,6 @@ Bu repo 42İstanbul'un libft projesi için kendi çözümlerimi içermektedir. K
 
 -How to make and use linked list - Linked list'in nasıl oluşturulup kullanılacağı
 
-## Sonuç
+## Result - Sonuç
 
-![Libft](https://github.com/karakuscem/Ecole42-CPiscine/blob/main/sources/C06.png)
+![Libft](https://github.com/karakuscem/42-libft/blob/main/source/Libft.png)
